@@ -93,8 +93,6 @@ img {
   display: flex;
   gap: 50px;
   margin-right: 344px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-menu-second {
@@ -127,6 +125,10 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-link-color);
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link:hover,
@@ -230,7 +232,7 @@ img {
 }
 
 .width {
-  width: 370px;
+  max-width: 370px;
 }
 
 .post-team {

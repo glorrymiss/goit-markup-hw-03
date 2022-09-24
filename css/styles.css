@@ -229,6 +229,10 @@ img {
   gap: 30px;
 }
 
+.width {
+  width: 370px;
+}
+
 .post-team {
   background-color: var(--second-back-color);
 }

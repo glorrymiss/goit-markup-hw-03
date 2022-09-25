@@ -74,8 +74,6 @@ img {
 
 /*header*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--border-color);
 }
 /* флекси в хедері*/
@@ -109,6 +107,8 @@ img {
   color: var(--accent-color);
 
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-letter {
@@ -142,6 +142,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--base-text-color);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .date:hover,
@@ -204,6 +207,10 @@ img {
 .main-menu {
   display: flex;
   gap: 30px;
+}
+
+.main-item {
+  flex-basis: calc((100% -90px) / 4);
 }
 
 .third-title {
@@ -301,16 +308,17 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 20px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-.footer-address {
-  display: inline-block;
+.footer-item {
   margin-bottom: 9px;
 }
 
-.footer-mail {
-  display: inline-block;
-  margin-bottom: 9px;
+.none-botton {
+  margin-bottom: 0px;
 }
 
 .footer-address,
@@ -389,6 +397,8 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-title-secondary);
+
+  margin-bottom: 4px;
 }
 
 .text-portfolio {
